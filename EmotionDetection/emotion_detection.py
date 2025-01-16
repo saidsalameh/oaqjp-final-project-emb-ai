@@ -19,7 +19,7 @@ def emotion_detector(text_to_analyze):
     joy = emotions['joy']
     sadness = emotions['sadness']
     max_emotion = max(emotions, key=emotions.get)
-        #max_emotion_score = emotions[max_emotion]
+    #max_emotion_score = emotions[max_emotion]
     formated_dict_emotions = {
                                 'anger': anger,
                                 'disgust': disgust,
