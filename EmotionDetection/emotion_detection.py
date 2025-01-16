@@ -29,8 +29,3 @@ def emotion_detector(text_to_analyze):
                                 'dominant_emotion': max_emotion
                                 }
     return formated_dict_emotions
-    
-    
-    
-
-
